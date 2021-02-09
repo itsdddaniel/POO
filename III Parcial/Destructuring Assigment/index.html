@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function Player(name,lives,health)
+        {
+            this.name = name;
+            this.lives = lives;
+            this.health = health;
+        }
+
+        var player1 = new Player("Dan",3,100)
+        extract1(player1);
+        extract2(player1);
+        extract3(player1);
+
+
+        function extract1(player)
+        {
+            console.group("Extract 1");
+            console.log(player.name,player.lives,player.health);
+            console.groupEnd();
+        }
+
+        function extract2(player)
+        {
+            ({name,lives,health}=player);
+            console.group("Extract 2");
+            console.log(name,lives,health);
+            console.groupEnd();
+        }
+
+        function extract3({name,lives,health})
+        {
+            console.group("Extract 2");
+            console.log(name,lives,health);
+            console.groupEnd();
+        }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ *Estilos para la generacion de una matriz de etiquetas
+ *
+ */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body{
+	background-color:white;
+}
+
+#matrixElement{
+	position: fixed;
+	width: 50vw;
+	height: 50vh;
+	top: 25vh;
+	left: 25vw;
+	border: solid 1px white;
+	background-color: white;
+}
+
+#matrixElement span{
+	position: absolute;
+	background-color: white;
+	border: solid 1px black;
+	margin: 0;
+}
+
+#buttonElement{
+	position: fixed;
+	width: 50vw;
+	height: 5vh;
+	top: 20vh;
+	left: 25vw;
+}
+
+#buttonElement button{
+	position: absolute;
+	width: 33%;
+}
+
+#buttonElement #refreshButtonElement{
+	left: 0%;
+}
+#buttonElement #clearButtonElement{
+	left: 33%;
+}
+#buttonElement #saveButtonElement{
+	left: 66%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
