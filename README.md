@@ -8,4 +8,4 @@ Repositorio del contenido de la clase Programación Orientada a Objetos (POO) - 
 
 # Content
 
-Repository of the content seen in the class of Oriented Object Programming (OOP) - I PAC 2020 of the National Autonomous University of Honduras (NAUH).
+Repository of the content seen in the class of Object Oriented Programming (OOP) - I PAC 2020 of the National Autonomous University of Honduras (NAUH).
